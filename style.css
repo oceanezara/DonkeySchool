@@ -170,13 +170,23 @@ nav{
   padding: 10px 10px 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.container{
+  margin-top: 20px;
+}
+.mes-projets{
+  margin-top: 20px;}
 
 @media (min-width: 600px) {
 .page-index{
   padding: 0 0 0 0;
   font-family: Helvetica, sans-serif;
   }
-   
+.container{
+  margin-top: 20px;
+}
+.mes-projets{
+  margin-top: 20px;
+}
 .banner{
   background: url(monitor-1307227_1920.jpg);
   background-repeat: no-repeat;
