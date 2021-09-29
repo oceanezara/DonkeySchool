@@ -10,6 +10,7 @@ img{
     border-radius: 3px;
   }
 h1{
+  margin-top: 15px;
   text-align: center;
   font-size: 2em;
 }
@@ -171,8 +172,19 @@ nav{
   margin-top: 20px;
 }
 .mes-projets{
-  margin-top: 20px;}
+  margin-top: 20px;
+}
+.bouton{
+  border: 1px;
+  color:black;
+  padding: 8px 8px 8px 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+}
 
+.margin-article{
+  margin-bottom: 20px;
+}
 @media (min-width: 600px) {
 .page-index{
   padding: 0 0 0 0;
@@ -236,6 +248,7 @@ h3{
   padding: 20px;
   text-decoration: none;
   color: #CFD8DC;
+  margin-top: 10px;
 }
 
 form{
