@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
 .page-index{
   padding: 0 10px 0 10px;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: lightsteelblue;
 }
 img:hover{
@@ -17,6 +17,10 @@ h1{
 }
 h2{
   text-align: center;
+}
+h3{
+  font-size:calc(0.9rem + .6vw);
+  margin-top: 10px;
 }
 .banner{
   background-image: url(img/monitor-1307227_1920.jpg);
@@ -186,17 +190,17 @@ nav{
 
 .margin-article{
   margin-bottom: 20px;
+  margin-right: 10px;
 }
 .durée{
-  font-weight:bold;
+  font-weight:bolder;
 }
 .info-user{
   margin-bottom: 15px;
   border: 1px;
   padding: 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(175, 130, 130, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 4px;
-  font-family: 'Syne', sans-serif;                                        
+  border-radius: 4px;                                       
 }
 .container .row{
   text-align: center;
