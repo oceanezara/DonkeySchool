@@ -2,6 +2,7 @@
 .page-index{
   padding: 0 10px 0 10px;
   font-family: Helvetica, sans-serif;
+  background-color: lightsteelblue;
 }
 img:hover{
     opacity: 0.5;
@@ -10,9 +11,12 @@ img{
     border-radius: 3px;
   }
 h1{
-  margin-top: 15px;
+  margin-top: 17px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.8em;
+}
+h2{
+  text-align: center;
 }
 .banner{
   background-image: url(monitor-1307227_1920.jpg);
@@ -23,7 +27,7 @@ h1{
   height: 300px;
   font-family: 'Montserrat', sans-serif;
   color: #CFD8DC;
-  }
+}
 h3{
   text-align: center;
 }    
@@ -163,7 +167,7 @@ a{
 nav{
   display: none;
 }
-.etude{
+#etude{
   border: 1px;
   padding: 10px 10px 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -178,17 +182,28 @@ nav{
   border: 1px;
   color:black;
   padding: 8px 8px 8px 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(175, 130, 130, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4px;
 }
 
 .margin-article{
   margin-bottom: 20px;
 }
+.durée{
+  font-weight:bold;
+}
+.info-user{
+  margin-bottom: 15px;
+  border: 1px;
+  padding: 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(175, 130, 130, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  font-family: 'Syne', sans-serif;                                        
+}
+                                              
 @media (min-width: 600px) {
 .page-index{
-  padding: 0 0 0 0;
-  font-family: Helvetica, sans-serif;
+  padding: 0;
   }
 .container{
   margin-top: 20px;
@@ -213,7 +228,7 @@ nav{
     justify-content: space-evenly;
     padding: 0 15px 0 15px;
 }
-.article{
+#article{
   display: flex;
 }
 h1{
@@ -223,12 +238,12 @@ h1{
   font-family:'Montserrat', sans-serif;
 
 }
+
 h3{
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-.etude{
+#etude{
   border: 1px;
   padding: 10px 10px 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -269,6 +284,7 @@ nav{
 .info-user{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .reverse{
   flex-direction: column-reverse;
@@ -277,15 +293,10 @@ nav{
 .column{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;                                              
 }
 .hamburger-menu{
   display: none;
 }
-.bouton{
-  border: 1px;
-  color:black;
-  padding: 8px 8px 8px 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 4px;
+
 }
