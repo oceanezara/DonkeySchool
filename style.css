@@ -19,7 +19,7 @@ h2{
   text-align: center;
 }
 .banner{
-  background-image: url(monitor-1307227_1920.jpg);
+  background-image: url(img/monitor-1307227_1920.jpg);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -28,9 +28,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   color: #CFD8DC;
 }
-h3{
-  text-align: center;
-}    
+   
 .footer{
   display: flex;
   justify-content: center;
@@ -200,19 +198,22 @@ nav{
   border-radius: 4px;
   font-family: 'Syne', sans-serif;                                        
 }
+.container .row{
+  text-align: center;
+}
+.container article{
+  text-align: center;
+}
                                               
 @media (min-width: 600px) {
 .page-index{
   padding: 0;
   }
-.container{
-  margin-top: 20px;
-}
 .mes-projets{
   margin-top: 20px;
 }
 .banner{
-  background: url(monitor-1307227_1920.jpg);
+  background: url(img/monitor-1307227_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -237,10 +238,6 @@ h1{
   font-size: 3em;
   font-family:'Montserrat', sans-serif;
 
-}
-
-h3{
-  text-align: center;
 }
 
 #etude{
